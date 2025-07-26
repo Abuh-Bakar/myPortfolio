@@ -1,5 +1,5 @@
 header {
-  /* height: 100vh; */
+  height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -29,17 +29,17 @@ header {
 
 .header__socials::after {
   content: "";
-  width: 2px;
+  width: 1px;
   height: 2rem;
   background: var(--color-primary);
 }
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 24rem;
+  width: 22rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 12rem);
+  left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
@@ -52,7 +52,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* media queries medium devices */

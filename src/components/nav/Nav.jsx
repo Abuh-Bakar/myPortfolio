@@ -39,6 +39,7 @@ const Nav = () => {
       >
         <RiServiceLine />
       </a>
+
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}

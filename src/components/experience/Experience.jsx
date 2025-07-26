@@ -5,8 +5,8 @@ import "./experience.css";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      {/* <h5>Skills I Have</h5> */}
+      <h2>My Experiences</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -77,7 +77,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
-                <h4>MySQL</h4>
+                <h4>Express.Js</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

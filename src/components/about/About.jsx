@@ -8,12 +8,12 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      {/* <h5>Get To Know</h5> */}
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About Me" />
           </div>
         </div>
         <div className="about__content">
@@ -37,13 +37,17 @@ const About = () => {
           </div>
 
           <p>
-            I'm a Website developer with over 3 years of experience in
-            website development, React JS app development and Node JS. My
-            passion is bringing digital visions to life and i'm commited to
-            delivering exceptional service that exceeds your expectations.
+            Full stack developer With experience in both frontend and backend
+            development, I can create a superb online presence for businesses,
+            blogs, and more. Using the latest technologies like React.js,
+            Express.js, MUI, and Bootstrap, i can create a landscape of online
+            possibilities that are visually appealing and user-friendly
           </p>
 
-          <a href="#contact" className="btn btn-primary"> Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            {" "}
+            Hire Me
+          </a>
         </div>
       </div>
     </section>
